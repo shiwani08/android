@@ -16,6 +16,4 @@ fun main() {
     n++
     println("the value is: "+n)
     println("my name is: $n "+str)
-
-
 }
