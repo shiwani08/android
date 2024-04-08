@@ -7,8 +7,10 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.R
+//import androidx.compose.foundation.layout.R
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -67,7 +69,6 @@ fun GreetingText(m2: String, m3: String, m4: String, modifier: Modifier = Modifi
                     top = 16.dp,
                     end = 16.dp,
                     bottom = 16.dp)
-                .align(alignment = Alignment.End)
         )
         Text(
             text = m3,
@@ -99,7 +100,7 @@ fun GreetingImage(m2: String, m3: String, m4: String, modifier: Modifier = Modif
         Image(
             painter = image,
             contentDescription = null,
-            contentScale = ContentScale.Crop
+            //contentScale = ContentScale.Crop
         )
         GreetingText(m2 = m2, m3 = m3, m4 = m4)
     }
