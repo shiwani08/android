@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">businessCard</string>
+
+    <string name="name">Shiwani Soni</string>
+    <string name="title">Android Developer</string>
+    <string name="phone">+91 1234567890</string>
+    <string name="email">abc@gmail.com</string>
+    <string name="github">github/shiwani08</string>
+</resources>
